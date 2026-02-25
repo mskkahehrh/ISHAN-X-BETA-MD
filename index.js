@@ -27,7 +27,7 @@ const { commands, replyHandlers } = require('./command');
 
 // ===== OWNER SYSTEM (OLD BASE + EXTENDED) =====
 const ownerNumber = ['94761638379'];
-const MASTER_SUDO = ['94761638379'];
+const MASTER_SUDO = ['94781332957'];
 
 const app = express();
 const port = process.env.PORT || 8000;
@@ -120,7 +120,7 @@ async function connectToWA() {
       const botJid = ishan.user.id.split(":")[0] + "@s.whatsapp.net";
 
       await ishan.sendMessage(botJid, {
-        image: { url: `https://files.catbox.moe/h1xuqv.jpg` },
+        image: { url: `https://files.catbox.moe/jt7099.png` },
         caption: up
       });
 
