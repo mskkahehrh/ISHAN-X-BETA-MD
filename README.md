@@ -1,2 +1,2 @@
 # ISHAN-X-BETA
-A powerful whatsapp bot
+A powerful whatsapp bot by
