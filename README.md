@@ -96,11 +96,9 @@ name: Node.js CI
 
 on:
   push:
-    branches:
-      - main
+    branches: [ "main" ]
   pull_request:
-    branches:
-      - main
+    branches: [ "main" ]
 
 jobs:
   build:
@@ -109,26 +107,19 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [24.x]
+        node-version: [20.x]
+        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v3
-
-    - name: Set up Node.js
-      uses: actions/setup-node@v3
+    - uses: actions/checkout@v4
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v4
       with:
         node-version: ${{ matrix.node-version }}
-        check-latest: true
-
-    - name: Install dependencies
-      run: npm install
-
-    - name: Build project (optional)
-      run: npm run build || echo "No build script found, skipping..."
-
-    - name: Start application
-      run: npm start
+        cache: 'npm'
+    - run: npm install
+    - run: npm run start
+    - run: npm test
 
 ```
 
