@@ -21,7 +21,7 @@ ___
 ---------
 
 <p align="center">
-<a href="https://github.com/MRSHABAN45/SHABAN-MD"><img title="PUBLIC-BOT" src="https://img.shields.io/static/v1?label=Language&message=JavaScript&style=square&color=darkpink"></a> &nbsp;
+<a href="https://github.com/ishanxmd/ISHAN-X-BETA-MD"><img title="PUBLIC-BOT" src="https://img.shields.io/static/v1?label=Language&message=JavaScript&style=square&color=darkpink"></a> &nbsp;
   <img src="https://komarev.com/ghpvc/?username=SHABAN-MD&label=VIEWS&style=square&color=blue" />
 </p>
 
@@ -41,7 +41,7 @@ ___
 
 
  <p align="center">
-  <a href="https://github.com/MRSHABAN45/SHABAN-MD/fork" target="_blank">
+  <a href="https://github.com/ishanxmd/ISHAN-X-BETA-MD/fork" target="_blank">
     <img src="ISHAN/forkstar-holo.svg" width="180" alt="Fork Star Bot Repo"/>
   </a>
 </p>
