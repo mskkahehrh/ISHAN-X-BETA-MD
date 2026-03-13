@@ -48,7 +48,7 @@ ___
 
 
 <p align="center">
-  <a href="https://ishan-x-md-beta-pair-web-main.onrender.com" target="_blank">
+  <a href="https://ishan-x-md-beta-pair-web-production-051b.up.railway.app/" target="_blank">
     <img src="./ISHAN/paircode-link.svg" width="195" alt="PAIR_CODE – Device Session ID">
   </a>
 </p>
